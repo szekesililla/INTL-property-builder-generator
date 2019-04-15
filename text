@@ -1,0 +1,16 @@
+      time.setID(propSetTime.getProperty("Id"));
+      time.setActivityId(propSetTime.getProperty("Activity Id"));
+      time.setOwnerId(propSetTime.getProperty("Owner Id"));
+      time.setSrCurrencyCode(propSetTime.getProperty("GEHC SR Currency Code"));
+      time.setLabourType(propSetTime.getProperty("Project"));
+      time.setStartDate(propSetTime.getProperty("Item Date"));
+      time.setStartTime(propSetTime.getProperty("Start Time"));
+      time.setStopTime(propSetTime.getProperty("End Time"));
+      time.setReportedTime(propSetTime.getProperty("Reported Time"));
+      time.setPrice(propSetTime.getProperty("Time Price"));
+      time.setListPrice(propSetTime.getProperty("GEHC List Price"));
+      time.setDiscountPercent(propSetTime.getProperty("GEHC Discount Percentage"));
+      time.setDiscountAmount(propSetTime.getProperty("GEHC Discount Amount"));
+      time.setDiscountReason(propSetTime.getProperty("GEHC Discount Reason"));
+      time.setConcessionReason(propSetTime.getProperty("Concession Reason"));
+      time.setComments(propSetTime.getProperty("GEHC Invoice Comments"));
